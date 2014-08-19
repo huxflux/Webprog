@@ -1,0 +1,8 @@
+1a) Lastet ned nyeste versjon av Apache Tomcat og fulgte instrukser fra
+http://wiki.jetbrains.net/intellij/Creating_a_simple_Web_application_for_Tomcat_in_IntelliJ_IDEA_12.
+
+1b)
+
+1c) Localhost (127.0.0.1) funker og det samme gjør "domenenavnet".
+
+1d) Man må åpne port 8080 på serverside.

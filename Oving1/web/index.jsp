@@ -11,6 +11,5 @@
     <title>Abrahadabra!</title>
   </head>
   <body>
-Diz rUlEz! Ich bin eine berlinerbolle! Und is liebe coding! HaX0r FTW!
-  </body>
+Hur FASAN!  </body>
 </html>
