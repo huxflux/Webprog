@@ -1,0 +1,49 @@
+Div stuffzZz fra forelesing
+--------------------------
+
+CSS
+---
+
+<body>
+  <div id="content">
+    <header>
+      <h1>scheisse!!11!!1</h1>
+    </header>
+
+  <div id="om_meg">
+    <p>Her er et blabla:</p>
+    <img src="blabla.jpg" height="150" />
+  </div>
+
+  Okidoki, wtfz0rz!
+
+
+
+JavaScript
+----------
+
+- Et scriptspraak, tolkes istedet for kompileres.
+- JavaScript er objektorientert
+- jQuery og HTML5
+- Som oftest clientside, men kan kommunisere med servere (AJAX) og kj0res paa servere (SSJS)
+
+- Kan innhente informasjon om HTML-dokumentet, hente informasjon om brukeren (nettleser, hvor muspeker befinner seg etc).
+- Be om info og gi info (meldingsbokser)
+- Manipulere grafikk og video med bruk av HTML5.
+- Validere input fra bruker.
+
+
+<html>
+  <head>
+    <title> blabla</title>
+  </head>
+  <body>
+    <script language="javascript">
+      document.writeln('<p>En liten JavaScript-test</p>');
+    </script>
+  </body>
+</html>
+
+- JS er case-sensitive
+
+
