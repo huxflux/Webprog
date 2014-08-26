@@ -45,5 +45,72 @@ JavaScript
 </html>
 
 - JS er case-sensitive
+- Variabler trenger ikke aa knyttes til en bestemt type
+
+var bokstaver = 'abc';
+var i; (undefined)
+
+"Tallet er " + 24; gir "Tallet er 24" .. + gj0r om til streng
+48-"2"; gir 46.
+
+const fagkode = 'TDAT2001'; (var istedet?)
+
+function leggSammen(a,b) {
+    return a+b;
+}
+
+leggSammen(3,4)
+
+parseFloat("24.1")
+
+eval(streng) ..
+
+arrays
+--------
+
+var colors = new Array();
+colors[0] = "red";
+colors[1] = "green";
+colors[2] = "blue";
+
+var colors = new Array("red", "green", "blue");
+
+colors.concat(34, 98, true);
+colors.join(", "); gir strengen "red, green, blue".
+colors.sort();
+
+onclick/ondblclick, onmousedown/onmouseup, onmousemove, onmouseover/onmouseout
+
+onkeydown, onkeypress, onkeyup
+
+onfocus/onblur, onload, onresize, onsubmit
+
+DOM
+----
+getElementByld: s0ker etter unikt element. (maa ha gitt element ID i HTML)
+
+var div = document.getElementByld("innhold");
+alert(div.innerHTML);
+
+getElementByTagName: finner alle elementer av en bestemt tagg-type (levert som array)
+
+var elementer = document.getElementsByTagName("div");
+var liste = document.getElementByld("bindersliste");
+var listeinnhold = liste.getElementsByTagName("li");
+
+getElementsByClass .. (finne elementer med en gitt klasse!!!!1111oneneoeoneone)
+
+
+<script src = "filnavn.js" type="text/javascript"></script>
+
+HTML5-stuff
+-----------
+<canvas>: tekna for fas
+<audio>: MP3, wav og ogg
+<video> MP4, WebM og ogg
+
+
+
+
 
 
