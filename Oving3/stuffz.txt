@@ -1,0 +1,26 @@
+JSP 2
+------
+
+HTML-FORMS
+
+<FORM METHOD="metode" ACTION="url">
+</FORM>
+
+<INPUT TYPE="type" NAME="navn">
+<INPUT TYPE="text" VALUE="blablabla" NAME="navn" SIZE="20">
+
+type: text, password, checkbox, radio, submit (VALUE="send"), reset, select.
+
+METHOD="GET"
+-----------
+- Kun til henting av info
+- Inneholdet vises i URL
+
+METHOD="POST"
+-------------
+- Data blir skjult
+- Oppdatering av data
+
+JSP
+----
+HttpServletRequest

@@ -1,0 +1,7 @@
+#bondesjakkbrett { width:300px;
+    height:300px;
+    border: 3px solid black;
+}
+.tabellrute{ background-color: #ccc}
+.redclass{ background-color: red}
+.greenclass{ background-color: green}

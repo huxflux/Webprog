@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META charset="UTF-8">
+    </head>
+<title>Bondesjakk</title>
+<link href="bonde.css" rel="stylesheet" type="text/css">
+<script src="bonde.js">
+</script>
+</head>
+
+<body>
+
+<!--<script src="bonde.js"/>-->
+
+<h1>Spill bondesjakk! </h1>
+<p>
+Her kan to personer spille bondesjakk. N&aring;r
+f&oslash;rstemann (r&oslash;dt) velger rute, klikker han en gang, og
+n&aring;r andremann (gr&oslash;nt) velger rute, dobbeltklikker han.
+</p>
+
+<table id="bondesjakkbrett">
+	<tr>
+	       <td id= "a1" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	       <td id= "a2" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	       <td id= "a3" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	</tr>
+	<tr>
+	       <td id = "b1" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	       <td id = "b2" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	       <td id = "b3" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	</tr>
+	<tr>
+	       <td id = "c1" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	       <td id = "c2" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	       <td id = "c3" class="tabellrute" onclick="changeColor(this)" ondblclick="changeColorGreen(this)"></td>
+	</tr>
+</table>
+
+<p><button onclick="window.location.reload()">Nytt spel</button></p>
+</body>
+</html>
