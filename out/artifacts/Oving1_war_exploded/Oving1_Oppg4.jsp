@@ -13,17 +13,6 @@
 <body>
 <h1><b>Kvadratrota</b></h1>
 <ul>
-    <%--<% int[] array = {-16,0,25};--%>
-    <%--double value;--%>
-    <%--for (int i = 0; i < 3; i++) {--%>
-    <%--value = (Math.sqrt((double)array[i]));--%>
-    <%--if (Double.isNaN(value)) { %>--%>
-    <%--<li>Kan ikke ta kvadratrota av <%= array[i]%>.<b>Tallet er negativt!</b></li> <%--%>
-    <%--} else { %>--%>
-    <%--<li>Kvadratrota av <%= array[i]%> er <%= value%></li> <%--%>
-    <%--}--%>
-    <%--}%>--%>
-
     <%!
         public double kvadrat(double tall) {
             double value = (Math.sqrt((double) (tall)));
@@ -40,7 +29,7 @@
             double value = kvadrat(array[i]);
             if ((int) value == -1) {
     %>
-    <li>Kan ikke ta kvadratrota av <%= array[i]%>.<b>Tallet er negativt!</b>
+    <li>Kan ikke ta kvadratrota av <%= array[i]%>.<b> Tallet er negativt!</b>
     </li>
     <%
     } else {%>

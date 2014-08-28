@@ -11,10 +11,5 @@ function changeColor(a) {
 }
 
 function changeColorGreen(a) {
-    var klasse = a.className;
-    if (klasse != 'tabellrute') {
-        a.className = 'tabellrute';
-    } else {
         a.className = 'greenclass';
-    }
 }
