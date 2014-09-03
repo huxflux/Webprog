@@ -12,9 +12,9 @@ med rød skrift hvis det er under en måned til.
 Lag også kode for å teste at dette funker (dvs. lag et Date-objekt der du setter
 datoen selv og test om du får riktig resultat for hvert av de tre tilfellene).
 */
-var date = new Date();
-var newDate = new Date('2013-05-23');
-var dager = 100;
+//var date = new Date();
+//var newDate = new Date('2013-05-23');
+//var dager = 100;
 
 var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
 

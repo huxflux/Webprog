@@ -2,13 +2,39 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>LEKESTUGGU</title>
+    <title>LEKESTUGGU 123</title>
 </head>
 <body>
+<center>
 <form action="index.jsp" method="POST">
-    <p> Navn: <INPUT type="text" NAME="navn" VALUE="" SIZE="20">
-    <p> Sendknappen: <input type="submit"value="Sendopplysninger">
+<H1>Stå i kø</H1>
+    <p> Navn: <INPUT type="text" NAME="navn" SIZE="20"><br>
 
+    Hvor sitter du?
+    <input type="radio" NAME="hvor" VALUE="Lab 1. etg"> Lab 1. etg
+    <input type="radio" NAME="hvor" VALUE="Lab 2. etg"> Lab 2. etg<br><br>
+
+    Beskrivelse (flere kryss mulig)<br>
+    Godkjenning<input type ="checkbox" NAME="godkjenning" VALUE="godkjenning">
+    Hjelp<input type ="checkbox" NAME="hjelp" VALUE="hjelp">
+    Annet<input type="checkbox" NAME="annet" VALUE="annet">
+
+    <p> Dersom annet beskriv kort her <INPUT type="text" NAME="annenTekst" ><br>
+
+    Øving: <br><select name="test" id="skit" multiple>
+    <option value="oving1">Oving1</option>
+    <option value="oving2">Oving2</option>
+    <option value="oving3">Oving3</option>
+    <option value="oving4">Oving4</option>
+    <option value="oving5">Oving5</option>
+    <option value="oving6">Oving6</option>
+    <option value="oving7">Oving7</option>
+    <option value="oving8">Oving8</option>
+    </select><br><br>
+
+    <input type="submit" name="send" value="Send opplysninger">
+    <input type="reset" value="Reset skjema">
 </form>
+</center>
 </body>
 </html>
