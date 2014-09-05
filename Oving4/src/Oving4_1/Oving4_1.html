@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jQuerystuff</title>
+    <link href="Oving4_1.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+//<!--<script>-->
+
+(function($) {
+    $.fn.checkMouse = function() {
+        var x = Math.floor((Math.random() * 500) + 1);
+        var y = Math.floor((Math.random() * 500) + 1);
+        $(".hitbox").animate({left:x, top:y } );
+    };
+})( jQuery );
+
+$(document).ready(function() {
+    $(".hitbox").click(function() {
+        $(".hitbox").stop();
+        $(".hitbox").fadeOut(500);
+    });
+    $(".hitbox").mouseover(function() {
+        $('.hitbox').checkMouse();
+    });
+});
+
+    </script>
+</head>
+<body>
+<div class="hitbox"></div>
+</body>
+</html>

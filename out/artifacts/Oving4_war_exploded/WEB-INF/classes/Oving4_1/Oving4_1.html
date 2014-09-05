@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jQuerystuff</title>
+    <link href="Oving4_1.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--<script type="text/javascript">-->
+<script>
+
+        $(document).ready(function() {
+            $(".hitbox").mouseover(function(){
+                var x = Math.floor((Math.random() * 10) + 1);
+                $(".hitbox").animate({left:'10px'});
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="hitbox"></div>
+</body>
+</html>
