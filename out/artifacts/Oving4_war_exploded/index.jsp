@@ -18,7 +18,6 @@
           } else if (test.equals("POST")) {
               response.setContentType("text/plain");
               myMessage = request.getParameter("testings");
-//              myMessage = "test";
           } else {
               response.setStatus(400);
           }%>
