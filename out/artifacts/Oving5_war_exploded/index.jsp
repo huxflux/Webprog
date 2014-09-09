@@ -15,7 +15,7 @@
   <%@include file="logo.html" %>
   <hr>
   <%@include file="kryssings.html" %>
-<%! int maxAge = 30;%>
+<%! int maxAge = 10;%>
 <%@ page import = "javax.servlet.http.Cookie" %>
 <%
       String bil = request.getParameter("bil");
@@ -41,6 +41,11 @@
     Cookie[] cookies = null;
 
     cookies = request.getCookies();
+
+    for (int i = 1; i < cookies.length; i++) {
+        out.println(cookies[i].getName() + "/");
+        out.println(cookies[i].getMaxAge() + "/");
+    }
 
     for (int i = 1; i < cookies.length; i++) {
         if (cookies[i].getName().equals("bil")) {
@@ -74,5 +79,8 @@
           response.addCookie(matCookie);
       }
   %>
+
+
+
   </body>
 </html>
