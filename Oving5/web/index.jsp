@@ -16,7 +16,7 @@
 <hr>
 <%@include file="kryssings.html" %>
 <%! int maxAge = 10;%>
-<%@ page import="javax.servlet.http.Cookie" %>
+<%--<%@ page import="javax.servlet.http.Cookie" %>--%>
 <%
     String bil = request.getParameter("bil");
     String sport = request.getParameter("sport");
